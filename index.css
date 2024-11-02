@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+.logo {
+    width: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-object {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.cart-logo {
+    width: 35px;
+}
+
+.navbar-objects > ul {
+    display: flex;
+    padding-right: 30px;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.foodie-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding-left: 25px;
+}
+.navbar-objects > ul > li {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 10px;
+}
+
+.restro-card1 {
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+.restro-card1:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.card1-name {
+    padding-left: 60px;
+    padding-top: 1px;
+}
+
+.card1Photo {
+    width: 200px;
+}
+
+.restro-container {
+    display: flex;
+    flex-wrap: wrap;
+}

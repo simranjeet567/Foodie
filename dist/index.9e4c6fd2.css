@@ -1,0 +1,83 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.logo {
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.logo-object {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  display: flex;
+}
+
+.cart-logo {
+  width: 35px;
+}
+
+.navbar-objects > ul {
+  padding-right: 30px;
+  font-size: 17px;
+  list-style-type: none;
+  display: flex;
+}
+
+.foodie-text {
+  color: orange;
+  margin-top: 5px;
+  padding-left: 25px;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-objects > ul > li {
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.search-bar {
+  padding: 10px;
+}
+
+.restro-card1 {
+  width: 200px;
+  height: 250px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.restro-card1:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.card1-name {
+  padding-top: 1px;
+  padding-left: 60px;
+}
+
+.card1Photo {
+  width: 200px;
+}
+
+.restro-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
