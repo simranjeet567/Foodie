@@ -24,14 +24,14 @@ const Header = () => {
 };
 
 
-//to add the css to the card1 we are using the js object syntax:
+//p1:to add the css to the card1 we are using the js object syntax:
 const card1Style = {
     backgroundColor: "#FFB6C1"
 }
 
 const RestroCardComponent = () => {
     return (
-        //here, inline syntax of css is used for the card1.
+        //here, inline syntax of css is used for the card1, see p1.
         <div className="restro-card1" style={card1Style}>
             <img className="card1Photo" src={yumBitePhoto} alt="yumbite photo"></img>
             <h4 className="card1-name">YumBite</h4>
